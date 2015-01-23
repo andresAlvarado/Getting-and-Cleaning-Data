@@ -29,19 +29,17 @@ l_subj_train_path # [CHAR] The local subj_train_path variable contains the path 
 
 l_act_lab         # [LIST] The local act_lab variable is used to store the data in the activity_labels.txt file.   
 l_act_lab_path    # [CHAR] The local act_lab_path variable contains the path to the activity_labels.txt file. 
-l_act_names       # [CHAR] The local act_names variable will store the mappings for the activity numbers and                                     descriptions.
+l_act_names       # [CHAR] The local act_names variable will store the mappings for the activity numbers and descriptions.
 
 l_y_merge         # [LIST] The local y_merge variable will store the union of the l_y_test and l_y_train variables.
 l_x_merge         # [LIST] The local x_merge variable will store the union of the l_x_test and l_y_train variables.
-l_subj_merge      # [LIST] The local subj_merge variable will store the union of the l_subj_test and l_subj_train                                 variables.
+l_subj_merge      # [LIST] The local subj_merge variable will store the union of the l_subj_test and l_subj_train variables.
 
 ----------------------------------------------------------------------------------------------------------------------
 First Dataset Names
 ----------------------------------------------------------------------------------------------------------------------
 
-l_features        # [LIST] The local l_features variable is used to store the data in the features.txt file. The
-                           features variable will be used to label the l_x_merge list.
-                           
+l_features        # [LIST] The local l_features variable is used to store the data in the features.txt file. The features variable will be used to label the l_x_merge list.
 l_features_path   # [CHAR] The local features_path variable contains the path to the features.txt file.
 
 l_y_names         # [CHAR] The local y_names variable will store the names for the l_y_merge list.
